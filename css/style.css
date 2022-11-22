@@ -137,7 +137,7 @@ h3 {
   width: 100vw;
   height: 100vh;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   z-index: -1;
 }
 
@@ -271,4 +271,4 @@ footer .footer-bottom {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
