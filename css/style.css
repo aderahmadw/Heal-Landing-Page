@@ -92,7 +92,7 @@ h3 {
   line-height: 0.7;
 }
 .front-page .selling-point {
-  margin-top: 24vh;
+  margin-top: 15vh;
   text-align: center;
   color: white;
 }
@@ -194,6 +194,7 @@ h3 {
   width: 90%;
 }
 .about p {
+  text-align: justify;
   font-family: "Poppins", sans-serif;
   line-height: 150%;
   font-size: 1.2rem;
@@ -246,6 +247,9 @@ footer .footer-bottom {
   .front-page .navbar .brands h1 {
     font-size: 1.2rem;
     margin-top: 15px;
+  }
+  .front-page .selling-point {
+    margin-top: 24vh;
   }
   .videos {
     display: flex;
