@@ -1,6 +1,6 @@
 @font-face {
   font-family: "orgonite";
-  src: url("assets/stone\ orgonite.woff");
+  src: url("../assets/stone orgonite.woff");
 }
 * {
   margin: 0;
@@ -137,14 +137,14 @@ h3 {
   width: 100vw;
   height: 100vh;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   z-index: -1;
 }
 
 .classes {
   color: var(--secondary-color);
   text-align: center;
-  font-family: "orgonite";
+  font-family: "orgonite", "Lobster Two";
 }
 .classes .btn-classes {
   width: 100%;
@@ -178,7 +178,7 @@ h3 {
 
 .about {
   text-align: center;
-  font-family: "orgonite", sans-serif;
+  font-family: "orgonite", "Lobster Two", sans-serif;
 }
 .about .btn-about {
   background-color: #1b1b1b;
@@ -271,4 +271,4 @@ footer .footer-bottom {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

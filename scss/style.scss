@@ -5,7 +5,7 @@ $seccolor: #1b1b1b;
 // font
 @font-face {
   font-family: "orgonite";
-  src: url("assets/stone\ orgonite.woff");
+  src: url("../assets/stone\ orgonite.woff");
 }
 
 // global
@@ -165,7 +165,7 @@ h3 {
 .classes {
   color: var(--secondary-color);
   text-align: center;
-  font-family: "orgonite";
+  font-family: "orgonite", "Lobster Two";
 
   .btn-classes {
     width: 100%;
@@ -204,7 +204,7 @@ h3 {
 // about
 .about {
   text-align: center;
-  font-family: "orgonite", sans-serif;
+  font-family: "orgonite", "Lobster Two", sans-serif;
 
   .btn-about {
     background-color: $seccolor;
